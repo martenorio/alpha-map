@@ -5,9 +5,9 @@ import * as dat from 'dat.gui'
 
 // Texture
 const loader = new THREE.TextureLoader()
-const texture = loader.load('/jude.jpg')
-const height = loader.load('/Mapeado.jpg')
-const alpha = loader.load('/Circulo 3d.2.png')
+const texture = loader.load('./jude.jpg')
+const height = loader.load('./Mapeado.jpg')
+const alpha = loader.load('./Circulo 3d.2.png')
 
 // Debug
 const gui = new dat.GUI()
